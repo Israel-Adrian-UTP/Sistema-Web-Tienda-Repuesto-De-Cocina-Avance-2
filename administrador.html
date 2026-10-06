@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>USUARIO</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/store.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <img class="title-logo" src="img/titulologo.png">
+    </header>
+    <!--Buscador-->
+    <div class="search-bar">
+        <form action="#" method="get">
+            <input type="text" name="buscar" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+    <!--Menu De Navegacion-->
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="producto.html">PRODUCTOS</a></li>
+            <li><a href="paquetes.html">PAQUETES</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="usuario.html">USUARIO</a></li>
+        </ul>
+    </nav>
+    <!--Base de datos-->
+    <div class="container">
+        <h1>Lista de productos</h1>
+        <div class="tabla-wrapper">
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Producto de ejemplo</td>
+                        <td>S/ 49.90</td>
+                        <td>25</td>
+                        <td><a href="#">AGREGAR</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Otro producto</td>
+                        <td>S/ 89.90</td>
+                        <td>10</td>
+                        <td><a href="#">ELIMINAR</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--Pie De Pagina-->
+    <footer>
+        <div class="containerfooter">
+            <span>
+                Desarrollado por
+                <br>
+                <img src="img/UTP.png" alt="" class="logofooter">
+                <br>
+                &copy; 2026, <b>Tienda De Repuestos De Cocina. </b>Todos los derechos reservados.
+            </span>
+        </div>
+    </footer>
+	<!--Boton subir arriba-->
+	<button id="btnVolverArriba" class="btn-volver-arriba" title="Volver arriba">↑</button>
+	<!--Boton modo oscuro-->
+	<button id="btnModoOscuro" class="btn-modo-oscuro" title="Modo oscuro">🌙</button>
+	<!--JavaScript-->
+	<script src="js/login.js"></script>
+</body>
+</html>
